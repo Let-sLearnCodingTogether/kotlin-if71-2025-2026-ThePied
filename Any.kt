@@ -1,7 +1,11 @@
-fun fail(message : String): Nothing{
-    throw IllegalArgumentException(message)
-}
+Judul: Any
 
+Isi:
 fun main() {
-    fail("Terjadi Kesalahan Fatal!")
+    val example1 : Any = "Bisa String"
+    val example2 : Any = 1
+    val example3 : Any = false
+    val example : Any = 3.14
+
+    println(example1)
 }

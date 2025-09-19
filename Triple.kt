@@ -1,8 +1,10 @@
-fun main() {
-    val example1 : Any = "Bisa String"
-    val example2 : Any = 1
-    val example3 : Any = false
-    val example : Any = 3.14
+Judul: triple
 
-    println(example1)
+Isi:
+fun main() {
+    val firstUser : Triple<String, Int, Boolean> = Triple("user 1", 10, false)
+
+    println(firstUser.first)
+    println(firstUser.second)
+    println(firstUser.third)
 }

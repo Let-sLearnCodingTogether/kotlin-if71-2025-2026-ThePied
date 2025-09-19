@@ -1,9 +1,13 @@
-fun main() {
-    val firstUser : Pair<String, Int> = Pair("User 1", 20)
-    println(firstUser.first)
-    println(firstUser.second)
+Judul: PairAndTriple
 
-    val secondUser : Pair<String, Int> = "User 2" to 20
-    println(secondUser.first)
-    println(secondUser.second)
+Isi:
+fun main() {
+    val pair : Pair<String, String> = Pair("First Name", "Last Name")
+    println(pair.first)
+    println(pair.second)
+
+    val triple : Triple<String, String, String> = Triple("First Name", "Last Name", "Child Name")
+    println(triple.first)
+    println(triple.second)
+    println(triple.third)
 }

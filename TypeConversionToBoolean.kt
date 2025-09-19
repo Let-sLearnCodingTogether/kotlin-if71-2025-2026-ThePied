@@ -1,10 +1,10 @@
+Judul: TypeConversionToBoolean
+
+Isi:
 fun main() {
-    val university : String = "Universitas Multi Data Palembang"
-    val address : String = """
-        Jln.Rajawali
-        Sumatera Selatan
-        Palembang
-    """.trimMargin()
-    
-    println(address)
+    val myBoolean : Boolean = false
+    val myBoolean2 : Boolean = true
+
+    println(myBoolean)
+    println(myBoolean2)
 }

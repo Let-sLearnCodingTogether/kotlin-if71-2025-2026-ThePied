@@ -1,3 +1,6 @@
+Judul: Latihan 4
+
+Isi:
 fun main() {
     val namaAwal : String = "Samuel"
     val namaAkhir : String = "Effendi Pratama"

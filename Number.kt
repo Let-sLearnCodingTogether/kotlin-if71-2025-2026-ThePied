@@ -1,9 +1,28 @@
+Judul: Number
+
+Isi:
+
 fun main() {
-    val result1 : Int = 18 + 2
-    val result2 : Int = 11 - 1
-    val result3 : Int = 10 * 2
-    val result4 : Int = 6 / 2
-    val result5 : Int = 13 % 2
-    val result6 : Int = 5 + 5 * 2
-    val result7 : Int = (5 + 5) * 2
+    //Integer Type
+    val age : Byte = 20
+    val height : Short = 163
+    val distance : Int = 86999
+    val balance : Long = 3_000_000_000L
+
+    println(age)
+    println(height)
+    println(distance)
+    println(balance)
+
+    //Unsigned Integer
+    val uAge : UByte = 20u 
+    val uHeight : UShort = 163u
+    val uDistance : UInt = 86999u
+    val uBalance : ULong = 4000000000u
+
+    println(uAge)
+    println(uHeight)
+    println(uDistance)
+    println(uBalance)
+
 }

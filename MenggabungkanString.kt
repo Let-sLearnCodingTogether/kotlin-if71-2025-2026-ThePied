@@ -1,7 +1,9 @@
+Judul: MenggabungkanString
+
+Isi:
 fun main() {
+    val kelas = "Kotlin"
     val jumlahMahasiswa = 28
-    println("Jumlah Mahasiswa : $jumlahMahasiswa")
-    // Jumlah Mahasiswa : 28
-    println("Jumlah Mahasiswa : ${jumlahMahasiswa + 1}")
-    //Jumlah Mahasiswa : 29
+
+    println("Kelas "+kelas+", berjumlah "+jumlahMahasiswa+1+" Orang")
 }

@@ -1,6 +1,10 @@
-fun printMessage(message: String): Unit {
-    println(message)
+Judul: Nothing
+
+Isi:
+fun fail(message : String): Nothing{
+    throw IllegalArgumentException(message)
 }
+
 fun main() {
-    printMessage("Halo Kotlin!")
+    fail("Terjadi Kesalahan Fatal!")
 }
